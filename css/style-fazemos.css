@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+h1,h2,h3,h4,h5, li{
+    font-family: 'poppins', sans-serif; 
+
+
+}
+p{
+    font-family: 'poppins', sans-serif;
+}
+
+.part1 img{
+    border-top-left-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+    width: 400px;
+}
+
+.part1{
+    position: relative;
+     margin-top: 10rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+
+
+.comp-title1{
+    top:2rem;
+    background-color: #4BC6DF ;
+    padding: 2rem;
+    right: -10rem;
+    left:15rem;
+    border-radius: 100rem;
+    max-width: 20rem;
+    position: absolute;
+    
+    
+   
+}
+
+
+.comp-title1 img{
+    max-width: 5rem;
+    position: absolute;
+    top: -2rem;
+    left: 15rem;
+    
+    
+}
+
+.envolvepart1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.titletext{
+    max-width: 400px;
+    padding: 2rem;
+
+
+}
+
+.title{
+    font-family: 'poppins';
+    font-size: 30px;
+    color: #0F253E;
+    
+
+    
+    
+}
+
+.espaco{
+    height: 150px;
+}
+
+.sec2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 6rem;
+ max-width: 100%;
+ background-color: #4BC6DF;
+ margin-top: 5rem;
+}
+
+
+.titlesec2{
+    width: 100%;
+    font-size: 30px;
+    color: #0F253E;
+   
+   
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: -10%;
+}
+
+
+.titlesec2 h1 {
+    max-width: 400px;
+    z-index: 11;
+    
+    
+    
+}
+
+
+
+.mapa{
+left: 50%;
+width: 450px;
+z-index: 1;
+position: absolute
+}
+
+
+button{
+    padding: 1rem;
+    background-color: #0F253E;
+    color: aliceblue;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+
+.equipamentos-porto{
+    width: 100%;
+    background-color: #0F253E;
+    position: relative;
+}
+.img-equipamento img{
+    width: 100%;
+    filter: opacity(40%);
+    max-height: 350px;
+    min-height: 300px;
+    object-fit:cover;
+
+}
+
+.text-equipamentos{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 5rem;
+    color: aliceblue;
+    padding-left: 20%;
+    max-width: 40rem;
+}
+
+.text-equipamentos h1{
+    font-size: 30px;
+    color: #4BC6DF;
+}
+
+#title-color-1{
+    color: #4BC6DF;
+    }
+
+    
+
+.img-text-terminal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+
+.img-text-terminal img{
+    border-bottom-left-radius: 10rem;
+    border-top-left-radius: 10rem;
+    width: 350px;
+
+}
+
+
+.text-terminal-title p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-terminal-title {
+   padding: 2rem;
+}
+
+.text-terminal{
+    max-width: 500px;
+}
+
+
+.imgs-text-expedicao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.expedicao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts-expedicao{
+    font-size: 40px;
+    padding-right: 3rem;
+}
+
+.img-text-rodoviario{
+    padding: 5%;
+}
+
+.img-text-ferroviario{
+    padding: 5%;
+}
+
+.tipa{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/img/tipa.jpg);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+    background-size: 100%;
+    background-position-x:center;
+    width: 100%;
+    background-position: center;
+    margin-top: 5rem;
+}
+
+.text-tipa-pai{
+    max-width: 70%
+}
+
+.text-tipa-buttom{
+    color: aliceblue;
+    max-width: 40rem;
+
+}
+
+.text-tipa-buttom h2{
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+}
+
+.itensenvase{
+    display: flex;
+
+}
+.title-text-envase{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-envase{
+    max-width: 30%;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.title-text-envase{
+    background-color: #4BC6DF;
+    position: absolute;
+    padding: 2rem;
+    border-radius: 4rem;
+}
+
+.title-text-envase h1{
+    color:#0F253E;
+    font-size: 30px;
+    padding-left: 1rem;
+
+}
+
+.itensenvase{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.envase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.title-text-envase{
+    position: absolute;
+    top: 30px;
+}
+#img1{
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+
+

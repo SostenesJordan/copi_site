@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#form_map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contato__main{
+    max-width: 400px;
+    padding: 2rem
+}
+
+.contato__main h2{
+    max-width: 400px;
+    color: #0F253E;
+}
+
+.contato__main h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+
+}
+
+.header_description{
+    font-family: 'poppins';
+    font-size:large;
+    padding-bottom: 30px;
+    color: #0F253E;
+}
+
+.input--assunto-input--select{
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    
+}
+.input__field{
+    font-family: 'poppins';
+    padding: 4px;
+    margin: 3px;
+    
+    border-radius: 7px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    padding-top: 20px
+
+}
+
+.checkbox-and-text-input{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: relative;
+padding-bottom: 2rem;
+padding-left: 2rem;
+}
+
+.checkbox-and-text-input input{
+    position: absolute;
+    bottom: 38px;
+    left: 1px;
+    
+    }
+
+
+    .form_footer{
+        font-family: 'poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.form_footer button{
+    background-color: #0F253E;
+    color: aliceblue;
+    padding: 0.8rem;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.form_footer button :hover{
+    background-color: #234f81;
+    color: aliceblue;
+    padding: 0.8rem;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.pre-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+#infos{
+    font-family: 'poppins';
+   justify-content: center;
+   align-items: flex-start;
+   text-align: center;
+   
+}
+
+
+#infos h1 p {
+    padding: 1rem;
+}
+
+
+.vaga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.text-vaga{
+    width: 30%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 5rem;
+}
+
+.text-vaga h1{
+    font-size: 25px;
+    color: #0F253E;
+
+}
+
+.text-vaga button{
+padding: 1rem;
+margin-top: 10px;
+border-radius: 1rem;
+
+}
